@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (CompressorTests.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  comptests.cpp
+d:\side projects\c++\huffzip\compressortests\comptests.cpp(77): warning C4309: 'argument': truncation of constant value
+d:\side projects\c++\huffzip\compressortests\comptests.cpp(80): warning C4309: 'argument': truncation of constant value
+d:\side projects\c++\huffzip\compressortests\comptests.cpp(91): warning C4309: 'argument': truncation of constant value
+d:\side projects\c++\huffzip\compressortests\comptests.cpp(95): warning C4309: 'argument': truncation of constant value
+d:\side projects\c++\huffzip\compressortests\comptests.cpp(106): warning C4309: 'argument': truncation of constant value
+d:\side projects\c++\huffzip\compressortests\comptests.cpp(107): warning C4309: 'argument': truncation of constant value
+d:\side projects\c++\huffzip\compressortests\comptests.cpp(110): warning C4309: 'argument': truncation of constant value
+d:\side projects\c++\huffzip\compressortests\comptests.cpp(115): warning C4309: 'argument': truncation of constant value
+d:\side projects\c++\huffzip\compressortests\comptests.cpp(116): warning C4309: 'argument': truncation of constant value
+  CompressorTests.vcxproj -> D:\Side Projects\C++\HuffZip\x64\Debug\CompressionTests.dll

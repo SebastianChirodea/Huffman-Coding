@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>d:\side projects\c++\huffzip\huffzip\</FILEPATH>
+      <FILENAME>bytefreq.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ByteFrequency::{ctor}</FUNCTION>
+    <DECORATED>??0ByteFrequency@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\side projects\c++\huffzip\huffzip\</FILEPATH>
+      <FILENAME>iterator.h</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'HuffmanTreeIterator::index' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>HuffmanTreeIterator::{ctor}</FUNCTION>
+    <DECORATED>??0HuffmanTreeIterator@@QEAA@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\side projects\c++\huffzip\huffzip\</FILEPATH>
+      <FILENAME>iterator.h</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>HuffmanTreeIterator::{ctor}</FUNCTION>
+    <DECORATED>??0HuffmanTreeIterator@@QEAA@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\side projects\c++\huffzip\huffzip\</FILEPATH>
+      <FILENAME>compressor.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>HuffmanCompressor::{ctor}</FUNCTION>
+    <DECORATED>??0HuffmanCompressor@@QEAA@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\side projects\c++\huffzip\huffzip\</FILEPATH>
+      <FILENAME>filetreebuilder.h</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>FileHuffmanTreeBuilder::{ctor}</FUNCTION>
+    <DECORATED>??0FileHuffmanTreeBuilder@@QEAA@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\side projects\c++\huffzip\huffzip\</FILEPATH>
+      <FILENAME>tree.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>HuffmanTree::{ctor}</FUNCTION>
+    <DECORATED>??0HuffmanTree@@QEAA@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\side projects\c++\huffzip\huffzip\</FILEPATH>
+      <FILENAME>tree.cpp</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>HuffmanTree::{ctor}</FUNCTION>
+    <DECORATED>??0HuffmanTree@@QEAA@$$QEAV0@@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\side projects\c++\huffzip\huffzip\</FILEPATH>
+      <FILENAME>tree.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>HuffmanTree::=</FUNCTION>
+    <DECORATED>??4HuffmanTree@@QEAAAEAV0@$$QEAV0@@Z</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\side projects\c++\huffzip\huffzip\</FILEPATH>
+      <FILENAME>tree.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'HuffmanTree::Node::frequency' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>HuffmanTree::Node::{ctor}</FUNCTION>
+    <DECORATED>??0Node@HuffmanTree@@QEAA@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\side projects\c++\huffzip\huffzip\</FILEPATH>
+      <FILENAME>bitwriter.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>BitFileWriter::addZerosUntilBitsAreEight</FUNCTION>
+    <DECORATED>?addZerosUntilBitsAreEight@BitFileWriter@@AEAAXAEAV?$vector@_NV?$allocator@_N@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

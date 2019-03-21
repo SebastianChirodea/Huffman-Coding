@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\compressor">
+      <UniqueIdentifier>{d89e6254-53a9-403f-ae6b-a6123de72106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\compressor">
+      <UniqueIdentifier>{54379948-8404-4dc8-85ba-319afff952a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\auxiliary">
+      <UniqueIdentifier>{25c72b74-a77e-426c-a7ed-6293459dedc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\auxiliary">
+      <UniqueIdentifier>{c9f7f0c4-63fa-4818-acaf-16eee9feb570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\compressor\tree">
+      <UniqueIdentifier>{e8bcfa80-1f87-4f89-9a00-55cb2bb15771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\compressor\tree">
+      <UniqueIdentifier>{a9f585eb-0128-47d2-8a08-d71713b579b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compressor.cpp">
+      <Filter>Source Files\compressor</Filter>
+    </ClCompile>
+    <ClCompile Include="filetreebuilder.cpp">
+      <Filter>Source Files\compressor</Filter>
+    </ClCompile>
+    <ClCompile Include="tree.cpp">
+      <Filter>Source Files\compressor\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="iterator.cpp">
+      <Filter>Source Files\compressor\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="bytefreq.cpp">
+      <Filter>Source Files\auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="bitwriter.cpp">
+      <Filter>Source Files\compressor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="compressor.h">
+      <Filter>Header Files\compressor</Filter>
+    </ClInclude>
+    <ClInclude Include="filetreebuilder.h">
+      <Filter>Header Files\compressor</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>Header Files\compressor\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="iterator.h">
+      <Filter>Header Files\compressor\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="bytefreq.h">
+      <Filter>Header Files\auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="bitwriter.h">
+      <Filter>Header Files\compressor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
